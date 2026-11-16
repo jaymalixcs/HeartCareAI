@@ -53,7 +53,8 @@ training_log.txt
 
 # Models and data backups
 models/*.pkl
-models/*.joblib
+models/model_bundle_*.joblib
+!models/model_bundle.joblib
 data/backup/
 
 # Jupyter

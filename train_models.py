@@ -68,6 +68,10 @@ MODEL_DIR = os.path.join(BASE_DIR, "models")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CHART_DIR = os.path.join(BASE_DIR, "app", "static", "charts")
 SOURCE_CANDIDATES = (
+    os.path.join(BASE_DIR, "cleaned_heart_dataset.xlsx"),
+    os.path.join(BASE_DIR, "patient_data_modified_below_95.xlsx"),
+    os.path.join(BASE_DIR, "data", "cleaned_heart_dataset.xlsx"),
+    os.path.join(BASE_DIR, "data", "patient_data_modified_below_95.xlsx"),
     os.path.join(os.path.dirname(BASE_DIR), "cleaned_heart_dataset.xlsx"),
     os.path.join(os.path.dirname(BASE_DIR), "patient_data_modified_below_95.xlsx"),
 )
